@@ -104,5 +104,5 @@ theme: fluid
 deploy:
   type: 'git'
   repo:
-    gitee: git@gitee.com:<m1ngWeiZhang>/<m1ngWeiZhang>.git
+    gitee: git@gitee.com:<m1ngWei>/<m1ngWei>.git
     branch: master

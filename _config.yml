@@ -103,6 +103,5 @@ theme: fluid
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: 'git'
-  repo:
-    gitee: git@gitee.com:<m1ngWei>/<m1ngWei>.git
-    branch: master
+  repo: git@github.com:Waym1ng/Waym1ng.github.io.git
+  branch: main

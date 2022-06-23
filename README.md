@@ -1,10 +1,14 @@
 ## 搭建hexo博客
 ### 这里是存放源码的仓库
 - 首先需要配置好ssh
-- 建立链接, git remote add blog https://github.com/Waym1ng/mingming-hexo-blog.git
-- 代码更新时, git push -u blog main
+- 建立链接
+> git remote add blog https://github.com/Waym1ng/mingming-hexo-blog.git
+- 代码更新时
+> git push -u blog main
 
 ### 另一个仓库部署用 [Waym1ng](https://github.com/Waym1ng/Waym1ng.github.io)
+- 安装部署插件 
+> npm install hexo-deployer-git --save
 - 需要在hexo根目录下配置 _config.yml 文件
     ```
     deploy:
@@ -12,8 +16,14 @@
     repo: git@github.com:Waym1ng/Waym1ng.github.io.git
     branch: main
     ```
-- 建立链接, git remote add origin https://github.com/Waym1ng/Waym1ng.github.io.git
-- 代码更新时, hexo c, hexo g, hexo d
+- 建立链接
+> git remote add origin https://github.com/Waym1ng/Waym1ng.github.io.git
+- 代码更新时
+> hexo c
+
+> hexo g
+
+> hexo d
  
  ### hexo常用命令
  ```

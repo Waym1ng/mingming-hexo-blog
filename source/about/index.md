@@ -1,6 +1,6 @@
 ---
 title: about
-date: 2022-06-17 15:39:45
+layout: about
 ---
 
 ### Information

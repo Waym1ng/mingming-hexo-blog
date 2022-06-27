@@ -1,6 +1,6 @@
 ---
 title: Flask+ nginx + gunicorn + supervisor 部署项目
-date: 2022-06-23 15:59:19
+date: 2022-06-22 19:59:19
 tags:
     - flask
     - nginx

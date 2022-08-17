@@ -1,16 +1,22 @@
 ---
 title: 用pandas生成excel文件示例，并调整excel的格式或样式
-date: 2022-06-26 09:15:30
-tags:
-    - pandas
-categories:
-    - python
+date: 2022-06-27 11:47:05
+tags: pandas python 数据分析
+categories: python加油鸭
 ---
+
+<!--more-->
+
 ## 用pandas生成excel
+
 - 当我们有特殊的需求时，比如要修改excel的行宽列宽，还有字体样式等等
+
 ### 需求示例
-![](/images/ex.png)
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/f37a16db24b84301863ffaf4d486819e.png)
+
 ### 代码实现
+
 ```python
 # -*- coding: utf-8 -*-
 import pandas as pd
@@ -49,3 +55,5 @@ with pd.ExcelWriter(path='demo-%d%02d%02d.xlsx' % (t.year, t.month, t.day), engi
     print('ok!')
 
 ```
+
+- 我的blog链接：[用pandas生成excel文件示例，并调整excel的格式或样式](https://waym1ng.github.io/2022/06/26/%E7%94%A8pandas%E7%94%9F%E6%88%90excel%E6%96%87%E4%BB%B6%E7%A4%BA%E4%BE%8B%EF%BC%8C%E5%B9%B6%E8%B0%83%E6%95%B4excel%E7%9A%84%E6%A0%BC%E5%BC%8F%E6%88%96%E6%A0%B7%E5%BC%8F/)

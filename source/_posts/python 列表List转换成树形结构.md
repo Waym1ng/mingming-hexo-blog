@@ -1,16 +1,14 @@
 ---
 title: python 列表List转换成树形结构
-date: 2022-06-20 22:49:51
-tags:
-    - 基础
-categories:
-    - python
+date: 2021-06-22 12:01:16
+tags: python
+categories: python加油鸭
 ---
 
-​
-### python 列表List转换成树形结构
-- 原始数据：list 中嵌套 dict 的数据格式
-- 转换结果：数结构的数据，children 字段嵌套的形式，适用于前端树形结构的渲染
+<!--more-->
+
+ -    **原始数据**：list中嵌套dict的数据格式
+ -    **转换结果**：数结构的数据，children字段嵌套的形式，适用于前端树形结构的渲染
 
 ```python
 def list_to_tree(data):
@@ -54,7 +52,7 @@ def add_node(p, node):
     if len(p["children"]) == 0:
         p["choice"] = 1
         return
-
+      
 if __name__ == '__main__':
   data_list = [{'parent_id': 10023, 'theme_id': 10024, 'theme_name': '英语三级'},
                {'parent_id': 10022, 'theme_id': 10023, 'theme_name': '英语二级'},
@@ -105,8 +103,5 @@ if __name__ == '__main__':
     ]
   }
   ]
+  '''
 ```
-
-'''
-
-​

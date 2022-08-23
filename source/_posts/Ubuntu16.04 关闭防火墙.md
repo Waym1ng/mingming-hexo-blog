@@ -1,5 +1,5 @@
 ---
-title: [RHEL7.1] Ubuntu16.04 关闭防火墙
+title: Ubuntu16.04 关闭防火墙
 date: 2020-04-17 16:32:18
 tags: systemd
 categories: Linux

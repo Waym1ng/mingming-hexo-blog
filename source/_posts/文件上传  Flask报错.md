@@ -1,11 +1,13 @@
 ---
-title: TypeError: expected str, bytes or os.PathLike object,not FileStorage 文件上传  Flask报错
+title: 文件上传  Flask报错
 date: 2020-07-23 15:12:40
 tags: python web
 categories: python加油鸭
 ---
 
 <!--more-->
+
+#### 报错信息：TypeError: expected str, bytes or os.PathLike object,not FileStorage 
 
  -     上传一个文件 file 本来想通过open\(\)来打开文件进行处理的，但是却报错了
 

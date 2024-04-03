@@ -21,7 +21,7 @@ categories: 前端
 
   - `map(callbackFn)` callbackFn包含参数(element 数组中当前正在处理的元素, index 索引, array 数组本身)
 
-  - ```
+  ```
     let arrs = [{name:"华为",price:6999},{name:"苹果",price:9888},{name:"小米",price:4999}]
     let newArrs = arrs.map(item=>{
     	return {
@@ -30,7 +30,7 @@ categories: 前端
     		number:888
     	}
     });
-    ```
+  ```
 
 - **filter**
 
@@ -40,12 +40,12 @@ categories: 前端
 
   - `filter(callbackFn)` callbackFn包含参数(element 数组中当前正在处理的元素, index 索引, array 数组本身)
 
-  - ```
+  ```
     let arrs = [5,7,8,15,22,1,2];
     let newArrs = arrs.filter(item=>{
     	return item>10
     })
-    ```
+  ```
 
 - **reduce**
 
@@ -53,13 +53,13 @@ categories: 前端
 
   - `reduce(callbackFn, initialValue)` callbackFn包含参数(prev上一次调用 callbackFn 的结果, current当前值, index索引-可选,array 数组本身-可选)，**initialValue** 第一次调用回调函数时初始值
 
-  - ```
+  ```
     let arrs = [1,2,3,4];
     let result = arrs.reduce((prev,current,index)=>{	
     	console.log(prev,current,index);
     	return prev+current;
     },0)
-    ```
+  ```
 
 - **every**
 
@@ -67,11 +67,11 @@ categories: 前端
 
   - `every(callbackFn)` callbackFn包含参数(element 数组中当前正在处理的元素, index 索引, array 数组本身)
 
-  - ```
+  ```
     let arrs = [1, 2, 3, 4, 5];
     // 写成两行时记得要return
     let result = arrs.every(num => num > 0);
-    ```
+  ```
 
 - **some**
 
@@ -79,11 +79,11 @@ categories: 前端
 
   - `some(callbackFn)` callbackFn包含参数(element 数组中当前正在处理的元素, index 索引, array 数组本身)
 
-  - ```
+  ```
     let arrs = [55,26,3,12,39];
     let result = arrs.some(item => item < 10);
     console.log(result);
-    ```
+  ```
 
 - **includes**
 
@@ -91,11 +91,11 @@ categories: 前端
 
   - `includes(searchElement)` searchElement 需要查找的值。
 
-  - ```
+  ```
     const arrs = [1, 2, 3];
     console.log(arrs.includes(2));
-    ```
+  ```
 
 > [!TIP]
->
+> 参考链接
 > https://blog.csdn.net/qq_18798149/article/details/135089225

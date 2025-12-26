@@ -1,3 +1,12 @@
+---
+title: requests vs aiohttp vs httpx python请求库对比 配合fastapi使用
+date: 2025-12-26 14:32:13
+tags: python fastapi
+categories: python加油鸭
+---
+
+<!--more-->
+
 一份 **面向 FastAPI 的、工程级别的对比结论**，站在**异步架构 / 并发 / 生产可维护性**角度来选型。
 
 ---

@@ -1,3 +1,12 @@
+---
+title: 快速上手Vite创建React项目
+date: 2025-12-25 12:52:13
+tags: 前端
+categories: 前端
+---
+
+<!--more-->
+
 ### 准备工作 (Prerequisites)
 
 在开始之前，请确保你的电脑上已经安装了 **Node.js**。Vite 需要 Node.js 版本 `18+` 或 `20+`。

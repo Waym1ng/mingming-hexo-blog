@@ -1,3 +1,12 @@
+---
+title: FaceFusion 3.2.0 参数配置参考
+date: 2025-12-20 10:32:13
+tags: ai
+categories: python加油鸭
+---
+
+<!--more-->
+
 # **FaceFusion 3.2.0 参数配置参考**
 
 ## 🧩 PROCESSORS（处理器模块）

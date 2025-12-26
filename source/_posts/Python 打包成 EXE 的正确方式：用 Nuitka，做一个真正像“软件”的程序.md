@@ -1,3 +1,12 @@
+---
+title: Python 打包成 EXE 的正确方式：用 Nuitka，做一个真正像`软件`的程序
+date: 2025-12-26 16:32:13
+tags: python 打包
+categories: python加油鸭
+---
+
+<!--more-->
+
 # Python 打包成 EXE 的正确方式：用 Nuitka，做一个真正像“软件”的程序
 
 > 如果你还在用 PyInstaller 打包 Python GUI，

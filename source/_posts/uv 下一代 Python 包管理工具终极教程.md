@@ -1,3 +1,13 @@
+---
+title: uv 下一代 Python 包管理工具终极教程
+date: 2025-12-24 15:32:13
+tags: python uv
+categories: python加油鸭
+---
+
+<!--more-->
+
+
 # 🚀 uv: 下一代 Python 包管理工具终极教程
 
 欢迎来到 `uv` 的世界！`uv` 是一个用 Rust 编写的、快如闪电的 Python 包管理器和解析器。它旨在成为 `pip`、`pip-tools` 和 `venv` 的直接替代品，并提供无与伦比的性能。
